@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+</head>
+<body>
+
+<a-scene embedded arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;">
+    <a-nft
+        url="https://github.com/mirko-marconi/modello-3D-Ar_code/blob/main/cubomino%202-2.jpg"
+    >
+        <a-entity gltf-model="url(https://github.com/mirko-marconi/modello-3D-Ar_code/blob/main/uomopupu5.glb)"></a-entity>
+    </a-nft>
+    <a-camera-static></a-camera-static>
+</a-scene>
+
+</body>
+</html>
